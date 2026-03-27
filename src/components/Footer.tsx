@@ -151,7 +151,7 @@ const Footer = () => {
           <span className="md:block hidden">•</span>
           <span>Réservez votre espace publicitaire</span>
           <span className="md:block hidden">•</span>
-          <span className="font-bold">FÉDÉRATION DU GRAND CASABLANCA</span>
+          <span className="font-bold"><a href="#">fcgc.ma</a></span>
           {/* <span>•</span>
           <span>+212 5 22 XX XX XX</span> */}
         </div>
