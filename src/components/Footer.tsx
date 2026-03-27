@@ -59,7 +59,7 @@ const Footer = () => {
 
           {/* Contact email - gold pill */}
           <div className="text-center mb-6 flex items-center justify-center gap-5">
-            <div className=" text-sm text-white font-medium flex items-center justify-between gap-4">
+            <div className=" text-sm text-white font-medium flex items-center justify-between gap-4 md:flex-row flex-col">
               <p className="flex items-center justify-between gap-2">
                 <span className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-blue-500" />
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
 
         <div className=" flex items-center justify-around flex-wrap gap-6  border-y-4 border-yellow-200 w-full">
-          <div className="w-[80%] flex items-center justify-between">
+          <div className="w-[80%] flex items-center justify-between md:flex-row flex-col md:gap-0 gap-5 md:mt-0 mt-8">
             <div className="flex items-start gap-2">
               <Eye className="h-10 w-10 text-cyan-400" />
               <div className="">
@@ -93,9 +93,7 @@ const Footer = () => {
               </div>
             </div>
 
-
-
-             <div className="flex items-start gap-2">
+            <div className="flex items-start gap-2">
               <Users className="h-10 w-10 text-cyan-400" />
               <div className="">
                 <p className="text-white font-semibold text-xl">12 893</p>
@@ -103,20 +101,19 @@ const Footer = () => {
               </div>
             </div>
 
-
             <div className="flex items-start gap-2">
               <Clock className="h-10 w-10 text-cyan-400" />
               <div className="">
-                <p className="text-white font-semibold text-xl"> Dernière actualisation</p>
-                <p className="text-xs text-gray-300 ">  24/03/2026 à 16:07:24</p>
+                <p className="text-white font-semibold text-xl">
+                  {" "}
+                  Dernière actualisation
+                </p>
+                <p className="text-xs text-gray-300 "> 24/03/2026 à 16:07:24</p>
               </div>
             </div>
 
-
-
-
             <div
-              className="bg-white rounded-lg  -my-4 p-2 flex flex-col items-center gap-1"
+              className="bg-white rounded-lg  md:-my-4 my-0 p-2 flex flex-col items-center gap-1"
               style={{ boxShadow: "0 0 15px rgba(245, 197, 66, 0.2)" }}
             >
               <img
@@ -141,20 +138,19 @@ const Footer = () => {
       <div
         className="py-3 px-4 border-t-8 border-gray-300 bg-gradient-to-tr from-[#916302] to-[#F2C35A]"
         style={{
-         
           boxShadow: "0 -2px 15px rgba(245, 197, 66, 0.3)",
         }}
       >
         <div
-          className="max-w-5xl mx-auto flex items-center justify-center gap-3 py-3 text-xs"
+          className="max-w-5xl mx-auto flex items-center md:flex-row flex-col justify-center gap-3 py-3 text-xs"
           style={{ color: "#0A1F44" }}
         >
           <span className="font-playfair italic font-bold text-sm">
             Nos Sponsors Officiels
           </span>
-          <span>•</span>
+          <span className="md:block hidden">•</span>
           <span>Réservez votre espace publicitaire</span>
-          <span>•</span>
+          <span className="md:block hidden">•</span>
           <span className="font-bold">FÉDÉRATION DU GRAND CASABLANCA</span>
           {/* <span>•</span>
           <span>+212 5 22 XX XX XX</span> */}

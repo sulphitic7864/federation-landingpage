@@ -74,7 +74,7 @@ const Leaderboard = () => {
           — Uniquement les Champions —
         </p>
         <div className="flex items-center justify-center ">
-          <div className="flex items-center justify-center w-1/2 bg-blue-950 rounded-lg  gap-3  text-xs text-muted-foreground">
+          <div className="flex items-center justify-center md:w-1/2 w-full bg-blue-950 rounded-lg  md:gap-3 gap-1  text-xs text-muted-foreground">
             <span className=" px-2 py-0.5 rounded text-[11px] ">
               📅 Dimanche 24 Mars 2026
             </span>

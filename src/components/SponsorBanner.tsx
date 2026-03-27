@@ -1,13 +1,13 @@
 const SponsorBanner = () => {
   return (
     <div
-      className="py-3 px-4 sponser-board !w-[71%]"
+      className="py-3 px-4 sponser-board md:!w-[71%] w-full"
       style={{
         background: "linear-gradient(135deg, #f5c542, #FFD700, #f5c542)",
         boxShadow: "0 4px 20px rgba(245, 197, 66, 0.3)",
       }}
     >
-      <div className="max-w-5xl mx-auto flex items-center justify-between p-5">
+      <div className="max-w-5xl mx-auto md:flex-row flex-col flex items-center justify-between p-5 md:gap-0 gap-5">
         <div className="relative flex items-center justify-center">
           <div className="absolute w-20 h-20 bg-yellow-400 rounded-full blur-2xl opacity-50 animate-pulse"></div>
 

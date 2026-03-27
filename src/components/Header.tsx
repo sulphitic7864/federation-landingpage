@@ -12,9 +12,8 @@ const Header = () => {
           <img
             src={federationLogo}
             alt="Fédération Colombophile Grand Casablanca"
-            width={84}
-            height={84}
-            className="rounded-full shadow-2xl bg-white z-10 border-[#c49924] border md:-mb-12 mb-0"
+           
+            className="rounded-full md:w-20 w-10 md:h-20 h-10 shadow-2xl bg-white z-10 border-[#c49924] border md:-mb-12 mb-0"
             style={{
               boxShadow:
                 "0 0 15px rgba(10, 31, 68, 0.4),0 0 30px rgba(10, 31, 68, 0.15)",
@@ -23,8 +22,7 @@ const Header = () => {
 
           {/* TEXT → HIDE ON SMALL */}
           <div
-            className="
-          "
+            className="md:block hidden "
           >
             <p
               className="font-cairo md:text-lg text-xs leading-tight font-semibold text-[#0A1F44]"

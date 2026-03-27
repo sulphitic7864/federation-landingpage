@@ -5,12 +5,15 @@ import StatsBar from "@/components/StatsBar";
 import CompetitionHistory from "@/components/CompetitionHistory";
 import SideAd from "@/components/SideAd";
 import Footer from "@/components/Footer";
+import bgImage from "@/assets/bg_img.png";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen  bg-contain bg-center bg-no-repeat" 
+     style={{ backgroundImage: `url(${bgImage})` }}
+     >
       <Header />
-      <div className="mt-40">
+      <div className="md:mt-40 mt-24">
       <SponsorBanner />
       </div>
 
