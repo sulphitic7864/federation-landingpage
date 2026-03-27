@@ -64,7 +64,7 @@ const Leaderboard = () => {
       {/* Title */}
       <div className="text-center py-4 border-b border-gold/30 gradient-card">
         <div className="flex justify-center gap-2 mb-1">
-          <span className="text-gold-light text-xl">🏆</span>
+          <span className="text-gold-light text-xl md:text-3xl">🏆</span>
         </div>
         <h2 className="font-roboto font-black text-xl md:text-2xl tracking-[0.2em] text-gold-light gold-text-glow">
           CHAMPIONS EN DIRECT

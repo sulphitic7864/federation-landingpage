@@ -146,7 +146,7 @@ const Footer = () => {
         }}
       >
         <div
-          className="max-w-5xl mx-auto flex items-center justify-center gap-3 text-xs"
+          className="max-w-5xl mx-auto flex items-center justify-center gap-3 py-3 text-xs"
           style={{ color: "#0A1F44" }}
         >
           <span className="font-playfair italic font-bold text-sm">
@@ -155,9 +155,9 @@ const Footer = () => {
           <span>•</span>
           <span>Réservez votre espace publicitaire</span>
           <span>•</span>
-          <span className="font-bold">federation-casablanca.ma/sponsors</span>
-          <span>•</span>
-          <span>+212 5 22 XX XX XX</span>
+          <span className="font-bold">FÉDÉRATION DU GRAND CASABLANCA</span>
+          {/* <span>•</span>
+          <span>+212 5 22 XX XX XX</span> */}
         </div>
       </div>
     </footer>
